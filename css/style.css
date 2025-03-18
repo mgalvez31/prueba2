@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Catamaran:wght@100..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Kosugi&family=Manrope:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Prata&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --menu-hover: #FE8F01;
+    --color-general: #898989;
+    --color-titulos: #282d33;
+    --color-iconos: #e0e0e0;
+    --color-checks: #53c3c9;
+    --fondo-gris: #f9f9f9;
+    --font-titulos: 'Catamaran', sans-serif;
+    --font-contenido: 'Catamaran', sans-serif;
+}
+
+body {
+    font-size: 14px;
+    font-family:"Catamaran", sans-serif;
+    color: var(--color-general);
+}
+
+header {
+    background-color: #FFF;
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333333;
+    color: #bababa;
+    padding: 15px 0;
+    text-align: center;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h2 {
+    font-family: var(--font-titulos);
+    color: var(--color-titulos);
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.services {
+    background-color: var(--fondo-gris);
+    padding: 50px 20px;
+}
+
+.service-item {
+    padding: 30px;
+    text-align: center;
+}
+
+.services {
+    color: var(--color-iconos);
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.services h3 {
+    font-family: var(--font-titulos);
+    color: var(--color-titulos);
+    margin-bottom: 10px;
+}
+
+
+
+
+.btn-primary {
+    background-color: #fff;
+    color: var(--color-general);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.customers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px 20px;
+}
+
+.customers img {
+    max-width: 20%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+	
